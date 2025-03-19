@@ -6,16 +6,16 @@
 //meter el modulo de cargar y guardar
 
 
-int main(){
+//int main(){
 	
 
 	
-	inicio_config();
+	//inicio_config();
 	
-	}
+	//}
 	
 
-void inicio_config(){
+void inicio_config(){ //se llama directamente desde el incio.c
 	int selecion;
 	printf("--------------------\n");
 	printf("-   CONFIGURACION  -\n");
@@ -82,7 +82,7 @@ void introducir_datos(){
         scanf("%c", &tipo_disparo2);
     }
 	
-	printf("\nintroducid el tamaño de los tableros: ");
+	printf("\nintroducid el tamaÃ±o de los tableros: ");
 	scanf("%d",&tablero);
 	
 	printf("|nintroducir el tipo de barco: ");
